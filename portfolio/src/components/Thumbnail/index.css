@@ -7,8 +7,8 @@
 }
 
 .content-square:hover {
-    height: 53vh;
-    width: 27vw;
+    transform: scale(1.1);
+    transition: ease-in-out 0.3s;
 }
 
 .content-square > img {
@@ -36,5 +36,4 @@
 
 .content-square-description h1 > a:hover {
     color: #1EAEDB;
-    
 }

@@ -1,7 +1,10 @@
 .App {
     width: 100vw;
-    overflow: none;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 .flex-column {
@@ -20,7 +23,7 @@ div.landing-image {
     background-image: url("bird.jpg");
     background-position: center;
     background-size: cover;
-    width: 90vw;
+    width: 92vw;
     height: 80vh;
     margin: auto;
 }
