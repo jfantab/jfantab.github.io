@@ -6,11 +6,21 @@
     padding-top: 3vh;
 }
 
+.content-square:hover {
+    height: 53vh;
+    width: 27vw;
+}
+
 .content-square > img {
+    filter: grayscale(1.0);
     height: 25vh;
     width: 20vw;
     margin: auto;
     object-fit: contain;
+}
+
+.content-square > img:hover {
+    filter: grayscale(0.0);
 }
 
 .content-square-description {

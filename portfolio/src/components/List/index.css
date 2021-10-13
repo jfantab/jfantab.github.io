@@ -7,13 +7,15 @@ li {
     list-style: none;
     width: 10vw;
     height: 1vh;
+    font-size: 1.7em;
 }
 
 li > a {
     text-decoration: none;
     color: black; 
+    font-size: 1.0em;
 }
 
 li > a:hover {
-    font-size: 2rem;
+    font-size: 1.2em;
 }
