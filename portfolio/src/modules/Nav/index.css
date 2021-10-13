@@ -1,0 +1,24 @@
+.navbar {
+    height: 10vh;
+    width: 90vw;
+    margin: auto;
+    padding-top: 5vh;
+    padding-left: 5vw;
+    border-bottom: 1px solid black;
+    margin-bottom: 5vh;
+    justify-content: space-around;
+}
+
+.navbar h1 {
+    margin: auto;
+}
+
+.navbar h1 > a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar h1 > a:hover {
+    color: #1EAEDB;
+    font-size: 1.3em;
+}

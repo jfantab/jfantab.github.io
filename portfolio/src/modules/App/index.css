@@ -1,0 +1,46 @@
+.App {
+    width: 100vw;
+    overflow: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div.landing-image {
+    background-image: url("bird.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 90vw;
+    height: 80vh;
+    margin: auto;
+}
+
+div.landing-image h1, h3 {
+    color: white;
+    font-weight: 500;
+}
+
+div.landing-image h3 {
+    font-weight: 300;
+}
+
+div.landing-image section {
+    padding-left: 5vw;
+    padding-top: 20vh;
+    width: 35vw;
+}
+
+section.projects {
+    width: 100vw;
+    height: 80vh;
+}

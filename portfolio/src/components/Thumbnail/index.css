@@ -1,0 +1,30 @@
+.content-square {
+    width: 25vw;
+    margin: auto;
+    height: 50vh;
+    border: 1px solid grey;
+    padding-top: 3vh;
+}
+
+.content-square > img {
+    height: 25vh;
+    width: 20vw;
+    margin: auto;
+    object-fit: contain;
+}
+
+.content-square-description {
+    width: 20vw;
+    margin: auto;
+    text-align: center;
+}
+
+.content-square-description h1 > a {
+    text-decoration: none;
+    color: black;
+}
+
+.content-square-description h1 > a:hover {
+    color: #1EAEDB;
+    
+}

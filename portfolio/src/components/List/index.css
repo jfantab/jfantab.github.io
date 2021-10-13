@@ -1,0 +1,19 @@
+ul {
+    padding-top: 3vh;
+    height: 1vh;
+}
+
+li {
+    list-style: none;
+    width: 10vw;
+    height: 1vh;
+}
+
+li > a {
+    text-decoration: none;
+    color: black; 
+}
+
+li > a:hover {
+    font-size: 2rem;
+}
