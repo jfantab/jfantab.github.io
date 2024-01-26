@@ -1,17 +1,16 @@
 .navbar {
     height: 8vh;
-    width: 90vw;
+    width: 80vw;
     margin: auto;
-    padding-top: 2vh;
-    padding-left: 5vw;
-    padding-bottom: 1vh;
+    padding: 2vh 5vw 1vh 5vw;
     border-bottom: 1px solid black;
     margin-bottom: 3vh;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .navbar h1 {
     margin: auto;
+    padding-top: 1vh;
 }
 
 .navbar h1 > a {
@@ -21,15 +20,4 @@
 
 .navbar h1 > a:hover {
     color: #1EAEDB;
-    font-size: 1.3em;
-}
-
-.navbar > ul:first-child {
-    margin-left: 10vw;
-    margin-right: -10vw;
-}
-
-.navbar > ul:last-child {
-    margin-right: 10vw;
-    margin-left: -5vw;
 }

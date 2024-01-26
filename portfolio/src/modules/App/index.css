@@ -1,22 +1,5 @@
 .App {
     width: 100vw;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-body {
-    overflow-x: hidden;
-}
-
-.flex-column {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.flex-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 
 div.landing-image {
@@ -24,7 +7,7 @@ div.landing-image {
     background-position: center;
     background-size: cover;
     width: 92vw;
-    height: 80vh;
+    height: 65vh;
     margin: auto;
 }
 
@@ -43,7 +26,30 @@ div.landing-image section {
     width: 35vw;
 }
 
+section.intro {
+    margin: 10vh auto;
+    height: 40vh;
+}
+
+section.intro div.illustration {
+    height: 40vh;
+    width: 40vw;
+    margin-right: 10vw;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+section.intro div.intro-text {
+    font-size: 1.5em;
+    width: 30vw;
+    text-align: justify;
+}
+
 section.projects {
     width: 100vw;
     height: 80vh;
+    text-align: center;
+}
+
+section.projects h1 {
+    margin-bottom: 5vh;
 }

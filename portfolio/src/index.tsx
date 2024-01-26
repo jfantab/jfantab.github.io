@@ -2,11 +2,19 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
 import App from './modules/App'
+import Nav from './modules/Nav'
+import Footer from './modules/Footer'
 import reportWebVitals from './reportWebVitals'
+
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Nav />
+    <Router>
+      <Route path="/" component={App} />
+    </Router>
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root'),
 )

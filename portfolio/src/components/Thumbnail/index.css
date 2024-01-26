@@ -1,14 +1,14 @@
 .content-square {
     width: 25vw;
     margin: auto;
-    height: 50vh;
-    border: 1px solid grey;
     padding-top: 3vh;
+    box-shadow: 5px 5px 5px 5px grey;
 }
 
 .content-square:hover {
     transform: scale(1.1);
     transition: ease-in-out 0.3s;
+    box-shadow: 8px 8px 8px 8px grey;
 }
 
 .content-square > img {
@@ -27,6 +27,14 @@
     width: 20vw;
     margin: auto;
     text-align: center;
+}
+
+.content-square-description h1 {
+    font-size: 4rem;
+}
+
+.content-square-description p {
+    font-size: 1.7em;
 }
 
 .content-square-description h1 > a {

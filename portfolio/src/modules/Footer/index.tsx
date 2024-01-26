@@ -5,24 +5,17 @@ import './index.css'
 const Footer: React.FunctionComponent = () => {
   return (
     <div className="footer">
+      <p>Work in progress.</p>
       <List
         name="flex-row"
         listPropsArray={[
           {
-            href: '#',
-            children: 'Home',
+            href: 'https://www.instagram.com/jfantab/',
+            children: 'Instagram',
           },
           {
-            href: '#',
-            children: 'Blog',
-          },
-          {
-            href: '#',
-            children: 'About Me',
-          },
-          {
-            href: '#',
-            children: 'Contact',
+            href: 'https://github.com/jfantab',
+            children: 'Github',
           },
         ]}
       />

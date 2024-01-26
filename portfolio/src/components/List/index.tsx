@@ -12,13 +12,11 @@ interface ListProps {
 
 const List: React.FunctionComponent<ListProps> = ({ name, listPropsArray }: ListProps) => {
   return (
-    <ul className={name}>
+    <div className={name + ' nav-items'}>
       {listPropsArray.map((list) => (
-        <li className={list.name}>
-          <a href={list.href}>{list.children}</a>
-        </li>
+        <a href={list.href}>{list.children}</a>
       ))}
-    </ul>
+    </div>
   )
 }
 
